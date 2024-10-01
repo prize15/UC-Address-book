@@ -267,4 +267,8 @@ try {
 
     // Sorting contacts by city
     personalBook.sortContactsByCity();
-    console.log('Sorted contacts by city:', personalBook.listContacts
+    console.log('Sorted contacts by city:', personalBook.listContacts);
+}
+    catch{
+        console.log("error");
+    };
