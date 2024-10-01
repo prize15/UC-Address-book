@@ -139,8 +139,8 @@ try {
     const personalBook = manager.createAddressBook('Personal');
     const workBook = manager.createAddressBook('Work');
 
-    const contact1 = new Contact('Prize', 'Aseeja', 'SGNR', 'GHARPE', 'IN', '12345', '555-1234', 'prize15092000@gmail.com');
-    const contact2 = new Contact('Kunal', 'Aseeja', 'SGNR', 'GHARPE', 'IN', '67890', '555-5678', 'abhiaseeja@gmail.com');
+    const contact1 = new Contact('Prize', 'Aseeja', 'SGNR', 'GHARPE', 'INDIA', '12345', '555-1234', 'prize15092000@gmail.com');
+    const contact2 = new Contact('Kunal', 'Aseeja', 'SGNR', 'GHARPE', 'INDIA', '67890', '555-5678', 'abhiaseeja@gmail.com');
 
     personalBook.addContact(contact1);
     workBook.addContact(contact2);
